@@ -1,6 +1,10 @@
 # Ignore file named `README.md`
 README.md
 
+# Ignore file named `readme.txt`
+readme.txt
+
 # Ignofre folder named venv and .vscode
 venv/
 .vscode/
+

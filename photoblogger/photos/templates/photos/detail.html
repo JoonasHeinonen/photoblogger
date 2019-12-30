@@ -1,0 +1,11 @@
+{% extends 'photos/base.html' %}
+
+{% block content %}
+    <div class="container">
+        {% if error_message %}
+        <p><strong>{{ error_message }}</strong></p>
+        {% endif %}
+        <h1>{{ post.id }} - {{ post.tagline }}</h1>
+        <p>{{ post.content }}</p>
+    </div>
+{% endblock %}
