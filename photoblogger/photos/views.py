@@ -22,6 +22,3 @@ def detail(request, post_id):
 def results(request, post_id):
     response = "You are looking at the results of post %s."
     return HttpResponse(response % post_id)
-
-def like(request, post_id):
-    return HttpResponse("You're liking/disliking %s." % post_id)
